@@ -26,22 +26,12 @@ main {
     margin: 0 auto;
 }
 
-.card-columns {
-    column-count: 3;
-    column-gap: 0px;
-}
 
 .large-line {
     width: 60%;
     border: 2px solid white;
 }
 
-.card {
-    max-height: 250px;
-    height: 250px;
-    border-radius: 0px;
-    margin: 0px !important;
-}
 
 .btn-see-more {
     background-color: blue;
@@ -104,4 +94,8 @@ main {
 footer .row {
     margin: 0;
     height: 200px;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: white;
 }
